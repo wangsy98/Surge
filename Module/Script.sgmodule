@@ -1,5 +1,6 @@
 #!name=Script
 #!desc=执行 JavaScript 脚本
+#!system=ios
 
 [Script]
 

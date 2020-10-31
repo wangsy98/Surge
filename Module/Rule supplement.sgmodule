@@ -1,5 +1,5 @@
 #!name=Rule supplement
-#!desc=规则定义部分
+#!desc=定义补充规则
 
 [Rule]
 URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJECT
