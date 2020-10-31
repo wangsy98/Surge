@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% api.gotokeep.com, m.client.10010.com, ios.prod.ftl.netflix.com, api.revenuecat.com, buy.itunes.apple.com, r.inews.qq.com, api.rr.tv, trade-acs.m.taobao.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, p.du.163.com, newdrugs.dxy.cn
+hostname = %APPEND% api.gotokeep.com, m.client.10010.com, ios.prod.ftl.netflix.com, api.revenuecat.com, buy.itunes.apple.com, app-measurement.com, r.inews.qq.com, api.rr.tv, trade-acs.m.taobao.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, p.du.163.com, newdrugs.dxy.cn
 
 [Script]
 
@@ -67,8 +67,8 @@ http-response https://api.revenuecat.com/v1/receipts script-path=https://raw.git
 
 # P
 
-# > piesew专业版
-http-response https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/ZhiYi-N/Loon/master/picsew.js, requires-body=true, timeout=10, tag=piesew专业版
+# > picsew专业版
+http-response https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/ZhiYi-N/Loon/master/picsew.js, requires-body=true, timeout=10, tag=picsew专业版
 
 # Q
 
